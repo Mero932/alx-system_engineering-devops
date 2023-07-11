@@ -1,2 +1,2 @@
 #!/bin/bash
-find -minedepth 1 -type d | wc-l
+echo $(('echo $path | grep -o ":\" | wc -l +1))
