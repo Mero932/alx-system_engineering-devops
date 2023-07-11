@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e $power(($rule))
+echo -e $(($POWER/DIVIDE))
