@@ -1,2 +1,2 @@
 #!/bin/bash
-alias echo="printf hello user"
+alias echo="echo 'hello my user'"
