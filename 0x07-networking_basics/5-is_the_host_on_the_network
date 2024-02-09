@@ -1,0 +1,10 @@
+#!/user/bin/bash
+# Function to ping an IP address.
+# Accepts a string as an argument.
+# Pings the IP address 5 times.
+if [ $# -eq 0 ]; 
+then
+echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
+exit 1
+fi
+ping -c 5 $1
